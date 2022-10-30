@@ -1,0 +1,390 @@
+@media screen and (max-width:767px){
+    section{
+        background-color: #f7f7f7;
+    }
+    section > div:first-of-type{
+        max-width: 620px;
+        margin: 0 auto;
+        padding-top: 10px;
+    }
+    section > div > div:first-child{
+        margin-bottom: 10px;
+    }
+    section > div > div:first-child li a img{
+        width: 100%;
+    }
+    section > div > div:nth-child(2){
+        position: relative;
+        background-color: white;
+        max-width: 620px;
+        padding-left: 2%;
+        margin-bottom: 10px;
+    }
+    section > div > div:nth-child(2) > h2{
+        float: left;
+        margin: 30px 0px;
+        font-size: 22px;
+        font-weight: 700;
+    }
+    section > div > div:nth-child(2) > a{
+        position: absolute;
+        text-indent: -9999px;
+        font-size: 18px;
+        width: 18px;
+        height: 18px;
+        top: 30px;
+        right: 30px;
+        background-image: url("../images/add.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        float: left;
+    }
+    section > div > div:nth-child(2) > ol{
+        clear: both;
+        padding-bottom: 30px;
+        padding-left: 20px;
+    }
+    section > div > div:nth-child(2) > ol > li{
+        list-style: disc;
+    }
+    section > div > div:nth-child(2) > ol > li > a{
+        font-size: 14px;
+        color: black;
+    }
+    section > div > div:nth-child(2) > ol > li:not(:last-child){
+        margin-bottom: 20px;
+    }
+    section > div > div:nth-child(2) > ol > li > span{
+        float: right;
+        margin-right: 30px;
+        color: #939393;
+        font-size: 14px;
+    }
+    section > div:nth-child(2){
+        max-width: 620px;
+        margin: 0 auto;
+    }
+    section > div:nth-child(2) > ul:nth-of-type(1)::after{
+        content: '';
+        display: block;
+        clear: both;
+    }
+    section > div:nth-child(2) > ul:nth-of-type(1) > li{
+        position: relative;
+        background-color: white;
+        padding-left: 5%;
+        max-width: 44.25%;
+    }
+    section > div:nth-child(2) > ul:nth-of-type(1) > li:first-child h2{
+        float: left;
+        margin: 30px 0px;
+        font-size: 22px;
+        font-weight: 700;
+    }
+    section > div:nth-child(2) > ul:nth-of-type(1) > li:first-child >a{
+        position: absolute;
+        text-indent: -9999px;
+        width: 18px;
+        height: 18px;
+        top: 30px;
+        right: 30px;
+        background-image: url("../images/add.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        float: left;
+    }
+    section > div:nth-child(2) > ul:nth-of-type(1) > li:not(:last-child){
+        margin-bottom: 10px;
+        float: left;
+        margin-right: 1.5%;
+    }
+    section > div:nth-child(2) > ul:nth-of-type(1) li:first-child figure::after{
+        content: '';
+        display: block;
+        clear: both;
+    }
+    section > div:nth-child(2) > ul:nth-of-type(1) li:first-child figure{
+        clear: both;
+        margin-bottom: 30px;
+    }
+    section > div:nth-child(2) > ul:nth-of-type(1) li:first-child figure img{
+        display: block;
+        width: 90%;
+        height: 130px;
+        margin-bottom: 20px;
+    }
+    section > div:nth-child(2) > ul:nth-of-type(1) li:first-child figure img,section > div:nth-child(2) > ul:nth-of-type(1) li:first-child figure figcaption{
+        float: left;
+    }
+    section > div:nth-child(2) > ul:nth-of-type(1) li:first-child figure figcaption{
+        width: 90%;
+    }
+    section > div:nth-child(2) > ul:nth-of-type(1) li:first-child figure figcaption span{
+        display: block;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    section > div:nth-child(2) > ul:nth-of-type(1) li:first-child figure figcaption mark{
+        font-size: 18px;
+        font-weight: 700;
+        color: #006384;
+        line-height: 18px;
+    }
+    section > div:nth-child(2) > ul:nth-of-type(1) > li:nth-of-type(2){
+        float: left;
+        padding-bottom: 49px;
+        padding-top: 30px;
+    }
+    section > div:nth-child(2) > ul:nth-of-type(1) > li:nth-of-type(2)::after{
+        content: '';
+        display: block;
+        clear: both;
+    }
+    section > div:nth-child(2) > ul:nth-of-type(1) > li:nth-of-type(2) h2{
+        margin-bottom: 30px;
+        font-size: 22px;
+        font-weight: 700;
+    }
+    section > div:nth-child(2) > ul:nth-of-type(1) > li:nth-of-type(2) img{
+        display: block;
+        width: 100px;
+        height: 130px;
+        margin: 0 auto 20px;
+        box-shadow: 6px 3px 20px 0px;
+    }
+    section > div:nth-child(2) > ul:nth-of-type(1) > li:nth-of-type(2) ol{
+        margin-left: 10px;
+    }
+    section > div:nth-child(2) > ul:nth-of-type(1) > li:nth-of-type(2) ol > li{
+        list-style: disc;
+        width: 90%;
+    }
+    section > div:nth-child(2) > ul:nth-of-type(1) > li:nth-of-type(2) ol > li:first-child{
+        padding-bottom: 30px;
+        border-bottom: 1px dashed #cdcdcd;
+        margin-bottom: 20px;
+    }
+    section > div:nth-child(2) > ul:nth-of-type(1) > li:nth-of-type(2) ol > li > a{
+        font-size: 20px;
+        display: block;
+        width: 100%;
+        font-weight:700;
+        color: black;
+        background-image: url("../images/chevron_right_FILL0_wght400_GRAD0_opsz20.png");
+        background-size: 20px 20px;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    section > ul:nth-of-type(1){
+        max-width: 620px;
+        margin: 0 auto;
+        padding-bottom: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    section > ul:nth-of-type(1) > li{
+        width: 49.5%;
+    }
+    section > ul:nth-of-type(1) > li > a{
+        width: 100%;
+    }
+    section > ul:nth-of-type(1) > li:nth-child(2n+1){
+        margin-right: 1px;
+    }
+    section > ul:nth-of-type(1) > li > a > img{
+        width: 100%;
+    }
+    section > div:nth-of-type(3){
+        display: none;
+    }
+}
+@media screen and (min-width: 1280px){
+    section{
+        background-color: #f7f7f7;
+    }
+    section > div:first-of-type{
+        max-width: 1100px;
+        margin: 0 auto;
+        padding-top: 30px;
+
+    }
+    section > div::after{
+        content: '';
+        display: block;
+        clear: both;
+    }
+    section > div > div:first-child{
+        float: left;
+        margin-right: 1%;
+        margin-bottom: 10px;
+    }
+    section > div > div:first-child li a img{
+        width: 100%;
+    }
+    section > div > div:nth-child(2){
+        float: left;
+        background-color: white;
+        width: 47.4%;
+        padding-left: 2%;
+    }
+    section > div > div:nth-child(2) > h2{
+        float: left;
+        margin: 30px 0px;
+        font-size: 22px;
+        font-weight: 700;
+    }
+    section > div > div:nth-child(2) > a{
+        text-indent: -9999px;
+        width: 18px;
+        height: 18px;
+        margin-left: 70%;
+        margin-top: 30px;
+        background-image: url("../images/add.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        float: left;
+    }
+    section > div > div:nth-child(2) > ol{
+        clear: both;
+        padding-bottom: 23px;
+        padding-left: 20px;
+    }
+    section > div > div:nth-child(2) > ol > li{
+        list-style: disc;
+    }
+    section > div > div:nth-child(2) > ol > li > a{
+        font-size: 14px;
+        color: black;
+    }
+    section > div > div:nth-child(2) > ol > li:not(:last-child){
+        margin-bottom: 20px;
+    }
+    section > div > div:nth-child(2) > ol > li > span{
+        float: right;
+        margin-right: 30px;
+        color: #939393;
+        font-size: 14px;
+    }
+    section > div:nth-child(2){
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+    section > div:nth-child(2) > ul:nth-of-type(1) > li{
+        width: 47.4%;
+        float: left;
+        background-color: white;
+        padding-left: 20px;
+    }
+    section > div:nth-child(2) > ul:nth-of-type(1) > li:first-child h2{
+        float: left;
+        margin: 30px 0px;
+        font-size: 22px;
+        font-weight: 700;
+    }
+    section > div:nth-child(2) > ul:nth-of-type(1) > li:first-child >a{
+        text-indent: -9999px;
+        width: 18px;
+        height: 18px;
+        margin-left: 70%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        background-image: url("../images/add.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        float: left;
+    }
+    section > div:nth-child(2) > ul:nth-of-type(1) > li:not(:last-child){
+        margin-bottom: 10px;
+    }
+    section > div:nth-child(2) > ul:nth-of-type(1) li:first-child figure::after{
+        content: '';
+        display: block;
+        clear: both;
+    }
+    section > div:nth-child(2) > ul:nth-of-type(1) li:first-child figure{
+        clear: both;
+        margin-bottom: 30px;
+    }
+    section > div:nth-child(2) > ul:nth-of-type(1) li:first-child figure img{
+        display: block;
+        margin-right: 2%;
+    }
+    section > div:nth-child(2) > ul:nth-of-type(1) li:first-child figure img,section > div:nth-child(2) > ul:nth-of-type(1) li:first-child figure figcaption{
+        float: left;
+    }
+    section > div:nth-child(2) > ul:nth-of-type(1) li:first-child figure figcaption{
+        width: 61%;
+    }
+    section > div:nth-child(2) > ul:nth-of-type(1) li:first-child figure figcaption span{
+        display: block;
+        margin: 10px 0px 20px;
+    }
+    section > div:nth-child(2) > ul:nth-of-type(1) li:first-child figure figcaption mark{
+        font-size: 14px;
+        font-weight: 700;
+        color: #006384;
+        line-height: 18px;
+    }
+
+    section > div:nth-child(2) > ul:nth-of-type(1) > li:nth-of-type(2){
+        padding-bottom: 43px;
+    }
+    section > div:nth-child(2) > ul:nth-of-type(1) > li:nth-of-type(2) h2{
+        margin: 30px 0px 15px;
+        font-size: 22px;
+        font-weight: 700;
+    }
+    section > div:nth-child(2) > ul:nth-of-type(1) > li:nth-of-type(2) img{
+        float: left;
+        box-shadow: 6px 3px 20px 0px;
+    }
+    section > div:nth-child(2) > ul:nth-of-type(1) > li:nth-of-type(2) ol{
+        float: left;
+        margin-left: 60px;
+    }
+    section > div:nth-child(2) > ul:nth-of-type(1) > li:nth-of-type(2) ol > li{
+        list-style: disc;
+        width: 90%;
+    }
+    section > div:nth-child(2) > ul:nth-of-type(1) > li:nth-of-type(2) ol > li:first-child{
+        padding-bottom: 30px;
+        border-bottom: 1px dashed #cdcdcd;
+        margin-bottom: 20px;
+    }
+    section > div:nth-child(2) > ul:nth-of-type(1) > li:nth-of-type(2) ol > li > a{
+        font-size: 20px;
+        display: block;
+        width: 100%;
+        font-weight:700;
+        color: black;
+        background-image: url("../images/chevron_right_FILL0_wght400_GRAD0_opsz20.png");
+        background-size: 20px 20px;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    section > ul:nth-of-type(1){
+        max-width: 1100px;
+        margin: 0 auto 15px;
+        display: flex;
+    } 
+    section > div:nth-of-type(3){
+        padding: 0px 30px;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
