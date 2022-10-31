@@ -84,7 +84,6 @@
         background-color: white;
         z-index: 4;
         height: 100vh;
-
     }
     nav div > ul > li{
         border-bottom: 1px solid #dedede;
@@ -112,8 +111,6 @@
     nav div.active > ul > li > ul.active{
         display: block;
         padding: 30px 0px;
-    }
-    nav div.active > ul > li > ul.active li:not(:last-child){
     }
     nav div > ul > li > ul > li{
         margin-left: 75px;
@@ -326,7 +323,6 @@
         border-right: 1px #6f6f6f solid;
         margin-right: 4%;
     }
-
     footer > div > div select{
         float: left;
         margin-left: 42%;
@@ -347,7 +343,6 @@
         display: block;
         clear: both;
     }
-
     footer > div address,footer > div p:first-of-type{
         float: left;
         line-height: 18px;

@@ -1,11 +1,4 @@
-$(document).ready(function(){
-    Oslider();
-    EventSlider();
-    BannerSlider();
-    menubtn();
-});
 var deviceWidth = $(window).width();
-
 function Oslider(){
     if(deviceWidth <= 767){
         $('.Oslider').bxSlider({
@@ -89,7 +82,12 @@ function menubtn(){
         $(this).next('ul').toggleClass('active');
     })
 }
-
+$(document).ready(function(){
+    Oslider();
+    EventSlider();
+    BannerSlider();
+    menubtn();
+});
 
 
 
